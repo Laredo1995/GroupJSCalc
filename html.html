@@ -1,0 +1,48 @@
+<!Doctype html>
+<html>
+<head>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+        <div class="container">
+            <h1>Tip Calculator</h1>
+            <form action="">
+                <div class="control">
+                    <p>Enter Total Bill</p>
+                    <p class="input">
+                        $
+                        <input type="number" name="" id="totalBill" placeholder="000">
+                    </p>
+                </div>
+                <div class="control">
+                    <p>Choose your tip</p>
+                    <select name="" id="tipPercent">
+                        <option disabled selected value="0">Select From Here</option>
+                        <option value="0.2">Great Service!:20%</option>
+                        <option value="0.18">Good Service:18%</option>
+                        <option value="0.15">Bad Service:15%</option>
+                    </select>
+                </div>
+            </form>
+            <p>Split the bill into</p>
+            <input type="number" name="" id="split" />
+            <button id="calculate">Calculate</button>
+            <div class="totalTipe">
+                <p>Total Per Person</p>
+                <p class="tip">$<span id="tip">0.00</span> </p>
+            </div>
+
+        </div> 
+
+<script src="js.js"></script>
+</body>
+
+
+
+
+
+
+</html>
